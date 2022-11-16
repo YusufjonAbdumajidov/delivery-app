@@ -482,9 +482,14 @@ footer .footer_icon{
     width: 30%;
     top: 14%;
     right: 0;
-    background-color: #e8e8e8;
+    /* background-color: #e8e8e8; */
     padding: 30px;
     border-radius: 8px;
+    border: 1px solid #a7a7a7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .menu_container{position: relative;width: 70%;}
 .menu_banner img{height: 160px;width: 100%;}

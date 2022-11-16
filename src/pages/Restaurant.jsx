@@ -71,7 +71,7 @@ const Restaurant = () => {
       </div>
 
       <div className="menu_items">
-          <Item items={menuItems}/>
+         <Item items={menuItems}/>
       </div>  
     </div>
  
