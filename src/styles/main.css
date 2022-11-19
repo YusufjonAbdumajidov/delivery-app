@@ -472,7 +472,7 @@ footer .footer_icon{
 .infoBox_exit{
     position: absolute;
     font-size: 28px;
-    color: rgb(168, 10, 10);
+    color: rgb(47, 11, 11);
     top: 20px;
     right: 20px;
     cursor: pointer;
@@ -596,5 +596,25 @@ footer .footer_icon{
 .plusBtn{cursor: pointer;}
 .cartItem{
     width: 100%;
-    background-color: #fff;}
-
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #111;
+    width: 400px;
+    height: 90px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+.items_counter{
+    border: 1px solid #111;
+    display: flex;
+    align-items: center;
+}
+.items_counter button {
+    padding: 6px;
+    margin: 0 8px;
+    cursor: pointer;
+    font-size: 18px;
+}

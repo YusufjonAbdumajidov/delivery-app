@@ -6,6 +6,7 @@ const menu = [
       price: 15.99,
       img: 'https://littlesunnykitchen.com/wp-content/uploads/2020/11/Easy-Pancake-Recipe-2.jpg',
       desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+      quantity: 1,
     },
     {
       id: 2,
@@ -14,6 +15,7 @@ const menu = [
       price: 13.99,
       img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thespruceeats.com%2Findian-style-burger-1957599&psig=AOvVaw2WLaE3zjJrfNxyB2jTWIEX&ust=1668525217303000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMik7Pj6rfsCFQAAAAAdAAAAABAO',
       desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing.  `,
+      quantity: 1,
     },
     {
       id: 3,
@@ -22,6 +24,7 @@ const menu = [
       price: 6.99,
       img: 'image here',
       desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+      quantity: 1,
     },
     {
       id: 4,
@@ -30,6 +33,7 @@ const menu = [
       price: 20.99,
       img: 'image here',
       desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
+      quantity: 1,
     },
     {
       id: 5,
@@ -38,6 +42,7 @@ const menu = [
       price: 22.99,
       img: 'image here',
       desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
+      quantity: 1,
     },
     {
       id: 6,
@@ -46,6 +51,7 @@ const menu = [
       price: 18.99,
       img: 'image here',
       desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+      quantity: 1,
     },
     {
       id: 7,
@@ -54,6 +60,7 @@ const menu = [
       price: 8.99,
       img: 'image here',
       desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+      quantity: 1,
     },
     {
       id: 8,
@@ -62,6 +69,7 @@ const menu = [
       price: 12.99,
       img: 'image here',
       desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+      quantity: 1,
     },
     {
       id: 9,
@@ -70,6 +78,7 @@ const menu = [
       price: 16.99,
       img: 'image here',
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+      quantity: 1,
     },
     
   ];
