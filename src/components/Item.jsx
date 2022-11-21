@@ -26,13 +26,10 @@ const Item = ({ items }) => {
           <p className='item-text'>{desc}</p>
         </div>
         <button onClick={()=> addItem(id, title, price, quantity)}>add</button>
-        {/* <section className='counter_section'>
-            <p><AiOutlineMinus className='minusBtn'/></p> 
-            <p>0</p>
-            <p><AiOutlinePlus onClick={()=> addItem( id,title, price)} className='plusBtn' /></p> 
-        </section> */}
       </article>
     })}
+
+   
   </div>
 }
 

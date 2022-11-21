@@ -18,7 +18,7 @@ const initialState = {
 const AppProvider = ( { children } ) => {
 
     const [ state, dispatch ] = useReducer(reducer, initialState);
-    console.log(state);
+    // console.log(state);
 
     const [ openMenuBar, setOpenMenuBar ] = useState(false);
     const [ openRestaurants, setOpenRestaurants ] = useState(false);
@@ -40,9 +40,25 @@ const AppProvider = ( { children } ) => {
     const addItem = (id, title, price, quantity) => {
         dispatch({type: "ADD_ITEM", payload:{ id, title, price, quantity }})
     }
-    // const increase = id => {
-    //     dispatch({type: "INCREASE", payload: id})
-    // }
+
+    const clearCart = () => {
+        dispatch({ type: "CLEAR" })
+    }
+
+    const remove = id => {
+        dispatch({ type: "REMOVE", payload: id })
+    }
+    const increase = id => {
+        dispatch({type: "INCREASE", payload: id})
+    }
+    const decrease = id => {
+        dispatch({type: "DECREASE", payload: id})
+    }
+
+
+    useEffect(() => {
+        dispatch({type: "GET_TOTALS"})
+    }, [state.cart])
 
 
 
@@ -55,7 +71,9 @@ const AppProvider = ( { children } ) => {
         menuItems, setMenuItems,
         filterItems,
         addItem,
-        // increase,
+        clearCart,
+        remove,
+        increase, decrease
      }}
     >{children}</AppContext.Provider>
 }

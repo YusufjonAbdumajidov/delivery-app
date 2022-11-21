@@ -15,7 +15,7 @@ const menu = [
       price: 13.99,
       img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thespruceeats.com%2Findian-style-burger-1957599&psig=AOvVaw2WLaE3zjJrfNxyB2jTWIEX&ust=1668525217303000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMik7Pj6rfsCFQAAAAAdAAAAABAO',
       desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing.  `,
-      quantity: 1,
+      quantity: 1, 
     },
     {
       id: 3,
